@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._77_temp280426_3tp1_wieleaktywnosci">
         <activity
+            android:parentActivityName=".MainActivity"
+            android:label="Druga aktywność"
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:label="Główna aktywność"
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
